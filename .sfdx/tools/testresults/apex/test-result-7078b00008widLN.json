@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "outcome": "Skipped",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 0,
+    "skipped": 1,
+    "passRate": "0%",
+    "failRate": "0%",
+    "skipRate": "100%",
+    "testStartTime": "Sun May 22 2022 10:20:01 AM",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 184,
+    "hostname": "https://qwerty-b2-dev-ed.my.salesforce.com",
+    "orgId": "00D8b0000013oPTEAY",
+    "username": "lindasnora-dev-practice@gmail.com",
+    "testRunId": "7078b00008widLN",
+    "userId": "0058b00000FXtmSAAT"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004oxs1EAA",
+      "queueItemId": "7098b000000xhIeAAI",
+      "stackTrace": null,
+      "message": "Method highestOfListValuesTest does not exist in the the apex class with Id :01p8b000008x6wj",
+      "asyncApexJobId": "7078b00008widLNAAY",
+      "methodName": "highestOfListValuesTest",
+      "outcome": "Skip",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8b000008x6wjAAA",
+        "name": "OperationHelperTest",
+        "namespacePrefix": null,
+        "fullName": "OperationHelperTest"
+      },
+      "runTime": 0,
+      "testTimestamp": "2022-05-22T15:20:01.000+0000",
+      "fullName": "OperationHelperTest.highestOfListValuesTest",
+      "diagnostic": {
+        "exceptionMessage": "Method highestOfListValuesTest does not exist in the the apex class with Id :01p8b000008x6wj",
+        "exceptionStackTrace": null,
+        "compileProblem": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Sun May 22 2022 10:00:41 AM",
+    "testExecutionTimeInMs": 64,
+    "testTotalTimeInMs": 64,
+    "commandTimeInMs": 163,
+    "hostname": "https://qwerty-b2-dev-ed.my.salesforce.com",
+    "orgId": "00D8b0000013oPTEAY",
+    "username": "lindasnora-dev-practice@gmail.com",
+    "testRunId": "7078b00008wicG6",
+    "userId": "0058b00000FXtmSAAT"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004oxrDEAQ",
+      "queueItemId": "7098b000000xhHqAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078b00008wicG6AAI",
+      "methodName": "largestOutOfTwoNumbersTest",
+      "outcome": "Pass",
+      "apexLogId": "07L8b000059Pe4tEAC",
+      "apexClass": {
+        "id": "01p8b000008x6wjAAA",
+        "name": "OperationHelperTest",
+        "namespacePrefix": null,
+        "fullName": "OperationHelperTest"
+      },
+      "runTime": 44,
+      "testTimestamp": "2022-05-22T15:00:41.000+0000",
+      "fullName": "OperationHelperTest.largestOutOfTwoNumbersTest"
+    },
+    {
+      "id": "07M8b000004oxrEEAQ",
+      "queueItemId": "7098b000000xhHqAAI",
+      "stackTrace": "Class.OperationHelperTest.sumofListValuesTest: line 15, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: 32.7, Actual: 38.1",
+      "asyncApexJobId": "7078b00008wicG6AAI",
+      "methodName": "sumofListValuesTest",
+      "outcome": "Fail",
+      "apexLogId": "07L8b000059Pe4tEAC",
+      "apexClass": {
+        "id": "01p8b000008x6wjAAA",
+        "name": "OperationHelperTest",
+        "namespacePrefix": null,
+        "fullName": "OperationHelperTest"
+      },
+      "runTime": 20,
+      "testTimestamp": "2022-05-22T15:00:41.000+0000",
+      "fullName": "OperationHelperTest.sumofListValuesTest",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: 32.7, Actual: 38.1",
+        "exceptionStackTrace": "Class.OperationHelperTest.sumofListValuesTest: line 15, column 1",
+        "className": "OperationHelperTest",
+        "compileProblem": "",
+        "lineNumber": 15,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

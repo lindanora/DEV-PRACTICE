@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Sun May 22 2022 9:15:17 AM",
+    "testExecutionTimeInMs": 34,
+    "testTotalTimeInMs": 34,
+    "commandTimeInMs": 178,
+    "hostname": "https://qwerty-b2-dev-ed.my.salesforce.com",
+    "orgId": "00D8b0000013oPTEAY",
+    "username": "lindasnora-dev-practice@gmail.com",
+    "testRunId": "7078b00008wiZbQ",
+    "userId": "0058b00000FXtmSAAT"
+  },
+  "tests": [
+    {
+      "id": "07M8b000004oxpCEAQ",
+      "queueItemId": "7098b000000xhFpAAI",
+      "stackTrace": "Class.ListPracticeTest.addPlanetMethod1: line 9, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: Mars, Actual: Venus",
+      "asyncApexJobId": "7078b00008wiZbQAAU",
+      "methodName": "addPlanetMethod1",
+      "outcome": "Fail",
+      "apexLogId": "07L8b000059PdzPEAS",
+      "apexClass": {
+        "id": "01p8b000008x6wPAAQ",
+        "name": "ListPracticeTest",
+        "namespacePrefix": null,
+        "fullName": "ListPracticeTest"
+      },
+      "runTime": 34,
+      "testTimestamp": "2022-05-22T14:15:18.000+0000",
+      "fullName": "ListPracticeTest.addPlanetMethod1",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: Mars, Actual: Venus",
+        "exceptionStackTrace": "Class.ListPracticeTest.addPlanetMethod1: line 9, column 1",
+        "className": "ListPracticeTest",
+        "compileProblem": "",
+        "lineNumber": 9,
+        "columnNumber": 1
+      }
+    }
+  ]
+}
